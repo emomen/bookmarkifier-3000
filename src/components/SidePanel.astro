@@ -1,0 +1,54 @@
+<div
+  class="col-2 d-flex flex-column justify-content-evenly vh-100"
+>
+  <div class="ms-5 me-5">
+    <div>
+      Left Pane:
+    </div>
+    <select
+      id="leftPanelSelect"
+      class="form-select form-select-sm mb-4"
+      aria-label="Panel 1 select"
+    >
+      <option selected>Select an option</option>
+      <option value="1">Bookmarks</option>
+      <option value="2">Session</option>
+    </select>
+    <div>
+      Right Pane:
+    </div>
+    <select
+      id="rightPanelSelect"
+      class="form-select form-select-sm"
+      aria-label="Panel 2 select"
+    >
+      <option selected>Select an option</option>
+      <option value="1">Bookmarks</option>
+      <option value="2">Session</option>
+    </select>
+  </div>
+  <div class="ms-5 me-5">
+    <div class="mb-3">
+        Options:
+    </div>
+    <input
+      class="form-check-input me-1"
+      type="checkbox"
+      value=""
+      id="closeOnBookmark"
+    />
+    <label class="form-check-label w-75" for="closeOnBookmark">
+      Close tabs after bookmarking them
+    </label>
+  </div>
+</div>
+
+<style>
+  hr {
+    color: blue;
+  }
+
+  label {
+    font-size: small;
+  }
+</style>
